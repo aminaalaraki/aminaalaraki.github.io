@@ -19,7 +19,7 @@ body {
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Merriweather', serif;
   color: #2a2a2a;
 }
 
@@ -62,7 +62,7 @@ body > * {
 }
 
 main, header, nav, article, aside, footer, section {
-  background-color: rgba(4, 0, 255, 0.582);
+  background-color: rgba(4, 0, 255, 0.589);
   padding: 1%;
 }
 
