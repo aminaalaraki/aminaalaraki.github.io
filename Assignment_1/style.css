@@ -2,6 +2,7 @@
    background:gray;
   }
   .header {
+    margin: -8px -8px 15px -8px;
     display: flex;
     padding: 1%;  
     background: #1abc9c;
@@ -46,15 +47,17 @@
    border-radius: 4px;
   max-width: 250px;
   border: 1px;
+  height: 200px;
 
  }
 
   .experience{
     
     background-color: honeydew;
-    max-width: 640px;
+    max-width: 600px;
     border: 1px dashed;
     font-family: 'Anton', cursive;
+    padding: 20px;
   }
   .goal p{
     padding: 30px;
