@@ -20,7 +20,6 @@
       flex-direction: column;
       align-items: center;
       color: black;
-      font-family: 'Anton', cursive;
     }
 
   .container {
@@ -55,6 +54,7 @@
     background-color: honeydew;
     max-width: 640px;
     border: 1px dashed;
+    font-family: 'Anton', cursive;
   }
   .goal p{
     padding: 30px;
