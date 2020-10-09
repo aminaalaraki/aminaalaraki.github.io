@@ -15,7 +15,7 @@ newPar.append(pTwo);
 
 // 3 Into the first paragraph, insert the phrase "my name has " length of your name " characters"
 //      (e.g. my name has 10 characters).
-let lenName = document.createTextNode("My name has " + fullName.length - 1);
+let lenName = document.createTextNode("My name has " + (fullName.length - 1) + " characters");
 pOne.append(lenName);
 
 // 4 & 5 Into the second paragraph tag, return the 3rd character in your first name
