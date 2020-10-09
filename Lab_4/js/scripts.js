@@ -32,7 +32,7 @@ pTwo.append(lstLetters);
 
 // 8 Substring your first and last name into two separate variables
 const myFirstName = fullName.substring(0, 5);
-const myLastName = fullName.substring(7, 13);
+const myLastName = fullName.substring(6,13);
 
 // 9 Add the total length of your first and last names together
 const fullNameLength = myFirstName.length + myLastName.length;
