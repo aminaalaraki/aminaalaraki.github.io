@@ -1,41 +1,41 @@
-let myFullName = "Amina AlAraki"; // 12 characters in name...not including space
+const fullName = "Amina AlAraki"; // 12 characters in name...not including space
 // 1 Change the content of the div with class "header" to "[Your name]'s Lab 4"
 let header = document.querySelector(".header");
-header.innerHTML = myfullName + "'s Lab 4 ";
+header.innerHTML = fullName + "'s Lab 4 ";
 
 // 2 Insert two paragraphs into the div with the class "content"
 //  Label each paragraph with a distinct class name
-let paragraphOne = document.createElement("p1"); 
-let paragraphTwo = document.createElement("p2");
-paragraphOne.className = "content1";
-paragraphTwo.className = "content2"; 
-let newParagraph = document.querySelector(".content");
-newParagraph.append(paragraphOne);
-newParagraph.append(paragraphTwo);
+const pOne = document.createElement("p1"); 
+const pTwo = document.createElement("p2");
+pOne.className = "content1";
+pTwo.className = "content2"; 
+let newPar = document.querySelector(".content");
+newPar.append(pOne);
+newPar.append(pTwo);
 
 // 3 Into the first paragraph, insert the phrase "my name has " length of your name " characters"
 //      (e.g. my name has 10 characters).
-let mylengthName = document.createTextNode("My name has " + myfullName.length +" characters");
-paragraphOne.append(mylengthName);
+let lenName = document.createTextNode("My name has " + fullName.length +" characters");
+pOne.append(lenName);
 
 // 4 & 5 Into the second paragraph tag, return the 3rd character in your first name
-let thirdCharacter = document.createTextNode(myfullName.charAt(2).toUpperCase());
-paragraphTwo.append(thirdCharacter);
+let thirdChar = document.createTextNode(fullName.charAt(2).toUpperCase());
+pTwo.append(thirdChar);
 
 // 6 Add a new line to your second paragraph
-let newbreak = document.createElement("br");
-paragraphTwo.append(newbreak);
+let newLine = document.createElement("br");
+pTwo.append(newLine);
 
 // 7 Return the final three characters of your last name to that new line
-let mylastLetters = document.createTextNode(myfullName.substr(-3));
-paragraphTwo.append(lastLetters);
+let lstLetters = document.createTextNode(fullName.substr(-3));
+pTwo.append(lstLetters);
 
 // 8 Substring your first and last name into two separate variables
-let myfirstName = myfullName.substring(0, 5);
-let mylastName = myfullName.substring(7, 12);
+const firstName = fullName.substring(0, 5);
+const lastName = fullName.substring(7, 12);
 
 // 9 Add the total length of your first and last names together
-let mynameLength = myfirstName.length + mylastName.length;
+const fullNameLength = myfirstName.length + mylastName.length;
 
 // 10 Display that total next to your name in your header
-document.querySelector(".header").append("The length of my name is " + mynameLength);
+document.querySelector(".header").append("The length of my name is " + fullNameLength);
