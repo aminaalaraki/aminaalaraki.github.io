@@ -31,8 +31,8 @@ let lstLetters = document.createTextNode(fullName.substr(-3));
 pTwo.append(lstLetters);
 
 // 8 Substring your first and last name into two separate variables
-const firstName = fullName.substring(0, 5);
-const lastName = fullName.substring(7, 12);
+const myFirstName = fullName.substring(0, 5);
+const myLastName = fullName.substring(7, 12);
 
 // 9 Add the total length of your first and last names together
 const fullNameLength = myFirstName.length + myLastName.length;
