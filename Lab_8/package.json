@@ -1,0 +1,15 @@
+{
+  "name": "alaraki_lab8",
+  "version": "1.0.0",
+  "description": "An app to fetch random popular reddit posts and display them in HTML.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Amina AlAraki",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
